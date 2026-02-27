@@ -9,7 +9,7 @@ Built as part of the Bitespeed × FluxKart.com integration challenge.
 ## Live API
 
 ```
-POST https://your-app.onrender.com/identify
+https://bitspeed-task-vzg5.onrender.com/
 ```
 
 > Replace with your actual Render deployment URL after deploying.
