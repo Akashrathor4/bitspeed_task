@@ -1,0 +1,23 @@
+{
+  "name": "bitespeed-identity",
+  "version": "1.0.0",
+  "description": "Bitespeed Identity Reconciliation Service - FluxKart Contact Linking API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "prod": "NODE_ENV=production node src/server.js"
+  },
+  "keywords": ["bitespeed", "identity", "mongodb", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
